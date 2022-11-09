@@ -1,7 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
 
-import selliaPhone from "../images/selliaPhone.png";
-
 export const ProductsSection = () => {
 	return (
 		<section id='Products'>
@@ -46,7 +44,7 @@ export const ProductsSection = () => {
 							</p>
 						</Col>
 						<Col sm={4}>
-							<img src={selliaPhone} className='img-fluid' alt='Sellia phone' />
+							<img src='/images/selliaPhone.png' className='img-fluid' alt='Sellia phone' />
 						</Col>
 					</Row>
 				</Col>

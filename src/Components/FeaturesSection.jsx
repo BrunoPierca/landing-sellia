@@ -1,6 +1,5 @@
 import React from "react";
 import { Col, Row, Stack } from "react-bootstrap";
-import mkUp from "../images/mkUp.png";
 
 export const FeaturesSection = () => {
 	return (
@@ -45,7 +44,7 @@ export const FeaturesSection = () => {
 					</Row>
 				</Col>
 				<Col sm={5}>
-					<img className='img-fluid' src={mkUp} alt='Marketing Picture' />
+					<img className='img-fluid' src='/images/mkUp.png' alt='Marketing Picture' />
 				</Col>
 			</Row>
 		</section>

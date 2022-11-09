@@ -1,13 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import selliaLogo from "../images/selliaLogoFooter.png";
 
 export const Footer = () => {
 	return (
 		<section id='Footer'>
 			<Row className='mx-3 py-5'>
 				<Col sm={5}>
-					<img src={selliaLogo} className='img-fluid' />
+					<img src='/images/SelliaLogoFooter.png' className='img-fluid' />
 					<p>Copyright © 2022 Sellia, All rights reserved.</p>
 				</Col>
 				<Col sm={5}>

@@ -1,13 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import selliaPhone from "../images/selliaPhone.png";
 
 export const Support = () => {
 	return (
 		<section id='support' className='mx-5'>
 			<Row>
 				<Col sm={5}>
-					<img src={selliaPhone} alt='Sellia Phone' />
+					<img src='/images/selliaPhone.png' alt='Sellia Phone' />
 				</Col>
 				<Col sm={7}>
 					<h2>
