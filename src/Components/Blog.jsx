@@ -15,7 +15,7 @@ export const Blog = () => {
 					</Container>
 				</Col>
 				<Col sm={6} className='p-0'>
-					<img src={blogScreen} alt='blog Screenshot' className='img-fluid' style={{ objectFit: "contain" }} />
+					<img src='/images/BlogScreen.png' alt='blog Screenshot' className='img-fluid' style={{ objectFit: "contain" }} />
 				</Col>
 			</Row>
 		</section>
