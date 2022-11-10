@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import { Button } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
 
-export const HeroSection = () => {
+export const Hero = () => {
 	return (
 		<section className='py-3 mx-5' id='HeroSection'>
 			<Row>

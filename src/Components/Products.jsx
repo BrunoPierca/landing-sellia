@@ -1,6 +1,6 @@
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
-export const ProductsSection = () => {
+export const Products = () => {
 	return (
 		<section id='Products'>
 			<Row className='mx-5'>
@@ -8,23 +8,23 @@ export const ProductsSection = () => {
 					<h2>Un producto para cada necesidad</h2>
 					<Col sm={12}>
 						<Row>
-							<Col>
+							<Col sm={6}>
 								<h4>Franquicias</h4>
 							</Col>
-							<Col>
+							<Col sm={6}>
 								<h4>Enterprise</h4>
 							</Col>
 						</Row>
 						<Row>
-							<Col>
+							<Col sm={6}>
 								<h4>Trivias</h4>
 							</Col>
-							<Col>
+							<Col sm={6}>
 								<h4>RRHH</h4>
 							</Col>
 						</Row>
 						<Row>
-							<Col>
+							<Col sm={12} className='text-center'>
 								<h4>Hazlo a tu medida</h4>
 							</Col>
 						</Row>
