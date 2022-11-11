@@ -2,39 +2,49 @@ import { Col, Row } from "react-bootstrap";
 
 export const Products = () => {
 	return (
-		<section id='Products'>
-			<Row className='mx-5'>
+		<section id='Products' className='iconsBackground'>
+			<Row className='ms-5 py-5'>
 				<Col sm={4}>
 					<h2>Un producto para cada necesidad</h2>
 					<Col sm={12}>
-						<Row>
+						<Row className='g-2'>
 							<Col sm={6}>
-								<h4>Franquicias</h4>
+								<div className='productsGridItem d-flex justify-content-center align-items-center'>
+									<p className='fw-700 darkBlue m-0'>Franquicias</p>
+								</div>
 							</Col>
 							<Col sm={6}>
-								<h4>Enterprise</h4>
-							</Col>
-						</Row>
-						<Row>
-							<Col sm={6}>
-								<h4>Trivias</h4>
-							</Col>
-							<Col sm={6}>
-								<h4>RRHH</h4>
+								<div className='productsGridItem  d-flex justify-content-center align-items-center'>
+									<p className='fw-700 darkBlue m-0'>Enterprise</p>
+								</div>
 							</Col>
 						</Row>
-						<Row>
-							<Col sm={12} className='text-center'>
-								<h4>Hazlo a tu medida</h4>
+						<Row className='justify-content-between'>
+							<Col sm={6}>
+								<div className='productsGridItem d-flex justify-content-center align-items-center'>
+									<p className='fw-700 darkBlue m-0'>Trivias</p>
+								</div>
+							</Col>
+							<Col sm={6}>
+								<div className='productsGridItem d-flex justify-content-center align-items-center'>
+									<p className='fw-700 darkBlue m-0'>RRHH</p>
+								</div>
+							</Col>
+						</Row>
+						<Row className='justify-content-between'>
+							<Col sm={12}>
+								<div className='d-flex productsGridItem justify-content-center align-items-center'>
+									<p className='fw-700 darkBlue m-0'>Hazlo a tu medida</p>
+								</div>
 							</Col>
 						</Row>
 					</Col>
 				</Col>
-				<Col sm={8}>
+				<Col sm={8} id='productsColumn'>
 					<Row>
-						<Col sm={8}>
-							<h2>Productos</h2>
-							<p>
+						<Col sm={7} className='text-center mt-5'>
+							<h2 className='fw-700 darkBlue my-3'>Productos</h2>
+							<p className='fw-500 '>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, amet donec morbi vitae semper at vulputate. Elementum vitae,
 								mattis orci ultrices scelerisque sed. Magna praesent lectus quisque diam vivamus sed. Amet, egestas malesuada tortor augue
 								pellentesque. Ut aliquam blandit vulputate pulvinar ipsum risus. Nulla neque augue et tempor viverra odio facilisi sed.
@@ -43,8 +53,8 @@ export const Products = () => {
 								dignissim ipsum.
 							</p>
 						</Col>
-						<Col sm={4}>
-							<img src='/images/selliaPhone.png' className='img-fluid' alt='Sellia phone' />
+						<Col sm={4} className='mt-5'>
+							<img src='/images/selliaPhone.png' className='img-fluid ' alt='Sellia phone' />
 						</Col>
 					</Row>
 				</Col>

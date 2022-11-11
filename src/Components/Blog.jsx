@@ -3,7 +3,7 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 
 export const Blog = () => {
 	return (
-		<section id='blog'>
+		<section id='Blog'>
 			<Row className='mx-5'>
 				<Col sm={6} className='p-0 d-flex align-items-center'>
 					<Container>

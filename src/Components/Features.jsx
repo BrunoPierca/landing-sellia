@@ -3,8 +3,8 @@ import { Col, Row, Stack } from "react-bootstrap";
 
 export const Features = () => {
 	return (
-		<section id='featuresSection' className='text-center py-5 mx-5'>
-			<Row>
+		<section id='featuresSection'>
+			<Row className='text-center py-5 mx-5'>
 				<h2>
 					Sellia lo tiene <strong>todo.</strong>
 				</h2>

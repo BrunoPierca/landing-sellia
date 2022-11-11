@@ -3,8 +3,8 @@ import { Col, Row } from "react-bootstrap";
 
 export const Support = () => {
 	return (
-		<section id='support' className='mx-5'>
-			<Row>
+		<section id='support'>
+			<Row className='mx-5'>
 				<Col sm={5}>
 					<img src='/images/selliaPhone.png' alt='Sellia Phone' />
 				</Col>

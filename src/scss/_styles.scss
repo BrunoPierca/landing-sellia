@@ -1,0 +1,126 @@
+@use './variables';
+
+html, body {
+    scroll-behavior: smooth;
+    font-family: var(--font-Inter) !important;
+    .fw-300{
+        font-weight: 300 !important;
+    }
+    .fw-400{
+        font-weight: 400 !important;
+    }
+    .fw-500{
+        font-weight: 500 !important;
+    }
+    .fw-600{
+        font-weight: 600 !important;
+    }
+    .fw-700{
+        font-weight: 700;
+    }
+    span{
+        font-weight: 700 !important;
+        color: var(--Blue);
+    }
+    .darkBlue{
+        color: var(--DarkBlue);
+    }
+    .blue{
+        color: var(--Blue)
+    }
+    a{
+        color: black !important;
+    }   
+}
+@media (min-width: 1300px) {
+    div.container-fluid > section {
+        margin: 0 auto;
+        max-width: 1300px;
+    }
+    div.container-fluid > #navBar , #Footer {
+        max-width: 100%;
+    }
+}
+#navBar{
+    .navBarContainer{
+        height: 116.79px;
+    }
+}
+.iconsBackground{
+    background-image: url('/images/fondo_iconos_multicolor.png');
+
+}
+#Hero{
+    height: 601px;
+    .heroCTA{
+        border-width: 0 0 0 5px;
+        border-style: solid; 
+        border-color: var(--Blue);
+    }
+    .photoContainer{
+        margin: auto;
+        position: relative;
+        width: 75%;
+        height: 300px;
+    }
+    .photoContainer > img{
+        object-fit: cover;
+        aspect-ratio: 1/1;
+        border-radius: 15px;
+    }
+    #image1 {
+        width: 100%;
+
+        max-width: 200px;
+        max-height: 200px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+    }
+    #image2 {
+        width: 100%;
+        max-width: 150px;
+        max-height: 150px;
+        position: absolute;
+        right: -10%;
+        bottom: 0;
+    }
+    #circularText {
+        position: absolute;
+        z-index: 2;
+        fill: var(--Green);
+        right: -55px;
+      }
+      #heroImageBadge{
+        background-color: var(--DarkBlue);
+        color: white;
+        border-radius: 12px;
+        padding: 5px;
+        text-align: center;
+        font-size: 16px;
+      }
+}
+
+#OurClients{
+    min-height:235px ;
+}
+
+#AboutUs{
+    background-color: var(--Bone);
+}
+
+#Products {
+    #productsColumn{
+        background-color: #E2F0FF;
+    }
+    .productsGridItem{
+      background-color: #F1F1F1;
+      height: 160px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      border-radius: 12px;
+        
+    }
+  
+  }
