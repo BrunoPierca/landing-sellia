@@ -8,7 +8,7 @@ export const Clients = () => {
 	};
 
 	return (
-		<section id='OurClients'>
+		<section id='our_clients'>
 			<Row className='py-5 mx-5 align-items-center'>
 				<Col md='3'>
 					<p>

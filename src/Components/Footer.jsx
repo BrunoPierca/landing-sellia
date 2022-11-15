@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 export const Footer = () => {
 	return (
-		<section id='Footer'>
+		<section id='footer'>
 			<Row className='mx-3 py-5'>
 				<Col sm={5}>
 					<img src='/images/SelliaLogoFooter.png' width='212px' height='65px' className='img-fluid' />
@@ -11,16 +11,16 @@ export const Footer = () => {
 				</Col>
 				<Col sm={5}>
 					<Row>
-						<a href='#'>¿Quienes somos?</a>
+						<a href='#about_us'>¿Quienes somos?</a>
 					</Row>
 					<Row>
-						<a href='#'>Productos</a>
+						<a href='#products'>Productos</a>
 					</Row>
 					<Row>
-						<a href='#'>Blog</a>
+						<a href='#blog'>Blog</a>
 					</Row>
 					<Row>
-						<a href='#'>Contacto</a>
+						<a href='#contact_us'>Contacto</a>
 					</Row>
 				</Col>
 				<Col sm={2}>

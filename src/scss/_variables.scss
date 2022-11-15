@@ -3,11 +3,15 @@
 
 :root{
     // Font
-    --font-Inter: 'Inter' , sans-serif;
+    --font-inter: 'Inter' , sans-serif;
 
     // Colors
-    --Blue: #2255FF;
-    --DarkBlue: #021E51;
-    --Green: #28D296;
-    --Bone: rgba(217, 217, 217, 0.25);
+    // Primary
+    --blue: rgb(34, 85, 255);
+    // Secondary
+    // #021e51
+    --dark-blue: rgb(2, 30, 81);
+    // Extras
+    --green-light: rgb(40, 210, 150);
+    --bone: rgba(217, 217, 217, 0.25);
 }

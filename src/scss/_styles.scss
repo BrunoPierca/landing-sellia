@@ -2,7 +2,7 @@
 
 html, body {
     scroll-behavior: smooth;
-    font-family: var(--font-Inter) !important;
+    font-family: var(--font-inter) !important;
     .fw-300{
         font-weight: 300 !important;
     }
@@ -20,50 +20,63 @@ html, body {
     }
     span{
         font-weight: 700 !important;
-        color: var(--Blue);
+        color: var(--blue);
     }
-    .darkBlue{
-        color: var(--DarkBlue);
-    }
+    // Primary
     .blue{
-        color: var(--Blue)
+        color: var(--blue)
+    }
+    .background-primary{
+        background-color: var(--blue);
+    }
+    // Secondary
+    .dark-blue{
+        color: var(--dark-blue);
+    }
+    .background-secondary{
+        background-color: var(--dark-blue);
+    }
+    // background bone
+    .background-bone{
+        background-color: var(--bone);
     }
     a{
         color: black !important;
     }   
 }
 @media (min-width: 1300px) {
-    div.container-fluid > section {
+    section {
         margin: 0 auto;
         max-width: 1300px;
     }
-    div.container-fluid > #navBar , #Footer {
+    div.container-fluid > #navBar , #Footer , .extended-background {
         max-width: 100%;
     }
+
 }
-#navBar{
-    .navBarContainer{
+#nav_bar{
+    .nav-bar-container{
         height: 116.79px;
     }
 }
-.iconsBackground{
+.icons-background{
     background-image: url('/images/fondo_iconos_multicolor.png');
 
 }
-#Hero{
-    height: 601px;
-    .heroCTA{
+#hero{
+    // height: 601px;
+    .hero-cta{
         border-width: 0 0 0 5px;
         border-style: solid; 
-        border-color: var(--Blue);
+        border-color: var(--blue);
     }
-    .photoContainer{
+    .photo-container{
         margin: auto;
         position: relative;
         width: 75%;
         height: 300px;
     }
-    .photoContainer > img{
+    .photo-container > img{
         object-fit: cover;
         aspect-ratio: 1/1;
         border-radius: 15px;
@@ -86,14 +99,14 @@ html, body {
         right: -10%;
         bottom: 0;
     }
-    #circularText {
+    #circular-text {
         position: absolute;
         z-index: 2;
-        fill: var(--Green);
+        fill: var(--green);
         right: -55px;
       }
-      #heroImageBadge{
-        background-color: var(--DarkBlue);
+      #hero-image-badge{
+        background-color: var(--dark-blue);
         color: white;
         border-radius: 12px;
         padding: 5px;
@@ -102,19 +115,17 @@ html, body {
       }
 }
 
-#OurClients{
+#our_clients{
     min-height:235px ;
 }
 
-#AboutUs{
-    background-color: var(--Bone);
-}
 
-#Products {
-    #productsColumn{
+
+#products {
+    #products-column{
         background-color: #E2F0FF;
     }
-    .productsGridItem{
+    .products-grid-item{
       background-color: #F1F1F1;
       height: 160px;
       margin-top: 5px;
@@ -124,3 +135,21 @@ html, body {
     }
   
   }
+
+#features_section{
+    .feature-container{
+        background-color: var(--blue);
+        border-radius: 10px;
+        height: 100px;
+        // width: 190px;
+        margin: 5px;
+    }
+    .feature-container > * {
+        color: white;
+        
+    }
+}
+
+#support{
+    color: white;
+}

@@ -4,9 +4,9 @@ import { Button, Container } from "react-bootstrap";
 
 export const Hero = () => {
 	return (
-		<section id='Hero' className='iconsBackground'>
+		<section id='hero' className='icons-background'>
 			<Row className='mx-5'>
-				<Col sm={8} className='heroCTA'>
+				<Col sm={12} lg={8} className='hero-cta'>
 					<h1 className='fw-500 mb-5'>
 						Convierte una conversación en una <strong>oportunidad</strong> de <span>negocio</span>.
 					</h1>
@@ -18,11 +18,11 @@ export const Hero = () => {
 
 					<Button className='mt-5'>Solicitar una demo</Button>
 				</Col>
-				<Col sm={4}>
-					<div className='photoContainer'>
+				<Col sm={12} lg={4} className='py-5'>
+					<div className='photo-container'>
 						<img id='image1' src='/images/MujerConCelular.png' alt='' />
 						<img id='image2' src='/images/CelularEnMano.png' alt='' />
-						<svg id='circularText' viewBox='0 0 100 100' width='128' height='128'>
+						<svg id='circular-text' viewBox='0 0 100 100' width='128' height='128'>
 							<defs>
 								<path
 									id='circle'
@@ -41,7 +41,7 @@ export const Hero = () => {
 							</text>
 						</svg>
 					</div>
-					<Row id='heroImageBadge' className='align-items-center mx-5'>
+					<Row id='hero-image-badge' className='align-items-center mx-5'>
 						<Col sm={1}>
 							<svg width='18' height='16' viewBox='0 0 18 16' fill='none' xmlns='http://www.w3.org/2000/svg'>
 								<path

@@ -4,9 +4,9 @@ import { ContactForm } from "./ContactForm";
 
 export const ContactUs = () => {
 	return (
-		<section id='ContactUs'>
+		<section id='contact_us'>
 			<Row className='mx-5'>
-				<Col sm={4}>
+				<Col sm={4} className='background-primary'>
 					<h2>
 						Pongámonos en <strong>contacto</strong>
 					</h2>
@@ -98,9 +98,13 @@ export const ContactUs = () => {
 				</Col>
 				<Col sm={8}>
 					<Container className='mx-5 px-5'>
-						<h2>
-							¿Dudas? <strong>Te ayudamos</strong>
-						</h2>
+						<div className='icono-svg'>
+							{/* svg */}
+							<h2>
+								¿Dudas? <strong>Te ayudamos</strong>
+							</h2>
+						</div>
+
 						<p>
 							<strong>Compartenós tus dudas y un experto se comunicará contigo.</strong>
 						</p>
