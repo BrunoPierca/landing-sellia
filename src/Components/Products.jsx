@@ -2,8 +2,8 @@ import { Col, Row } from "react-bootstrap";
 
 export const Products = () => {
 	return (
-		<section id='products' className='icons-background'>
-			<Row className='ms-5 py-5'>
+		<section id='products' className='ms-md-5 icons-background'>
+			<Row className=' py-5'>
 				<Col sm={4}>
 					<h2>Un producto para cada necesidad</h2>
 					<Col sm={12}>
@@ -19,7 +19,7 @@ export const Products = () => {
 								</div>
 							</Col>
 						</Row>
-						<Row className='justify-content-between'>
+						<Row className='g-2'>
 							<Col sm={6}>
 								<div className='products-grid-item d-flex justify-content-center align-items-center'>
 									<p className='fw-700 darkBlue m-0'>Trivias</p>

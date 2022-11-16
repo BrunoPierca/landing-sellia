@@ -8,7 +8,7 @@ export const Features = () => {
 				<h2 className='dark-blue'>
 					Sellia lo tiene <strong>todo.</strong>
 				</h2>
-				<Col sm={7} className='py-5'>
+				<Col sm={12} lg={7} className='py-5'>
 					<Row>
 						<Col sm={4} className=''>
 							<div className='feature-container d-flex justify-content-center align-items-center'>
@@ -125,7 +125,7 @@ export const Features = () => {
 						</Col>
 					</Row>
 				</Col>
-				<Col sm={5}>
+				<Col sm={12} lg={5}>
 					<img className='img-fluid' src='/images/mkUp.png' alt='Marketing Picture' />
 				</Col>
 			</Row>
