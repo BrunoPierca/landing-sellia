@@ -10,11 +10,8 @@ export const Clients = () => {
 	return (
 		<section id='our_clients'>
 			<Row className='py-5 mx-5 align-items-center'>
-				<Col md='3'>
+				<Col md='4'>
 					<p>
-						{/* <span className='circleAroundSpan'>
-							<i className='fa-solid fa-award'></i>
-						</span> */}
 						<svg width='41' height='41' viewBox='0 0 41 41' fill='none' xmlns='http://www.w3.org/2000/svg' className='me-2'>
 							<g clipPath='url(#clip0_35_3812)'>
 								<path
@@ -32,7 +29,7 @@ export const Clients = () => {
 						Hacemos equipo con
 					</p>
 				</Col>
-				<Col md='7'>
+				<Col md={8}>
 					<Carousel controls={false} indicators={false}>
 						<Carousel.Item>
 							<Stack direction='horizontal' className='h-100 justify-content-center align-items-center' gap={3}>
@@ -51,9 +48,6 @@ export const Clients = () => {
 							</Stack>
 						</Carousel.Item>
 					</Carousel>
-				</Col>
-				<Col md='2'>
-					<Button>Solicitar una Demo</Button>
 				</Col>
 			</Row>
 		</section>

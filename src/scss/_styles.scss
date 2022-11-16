@@ -3,6 +3,8 @@
 html, body {
     scroll-behavior: smooth;
     font-family: var(--font-inter) !important;
+    overflow-x: hidden;
+
     .fw-300{
         font-weight: 300 !important;
     }
@@ -58,6 +60,31 @@ html, body {
     .nav-bar-container{
         height: 116.79px;
     }
+    .stripe {
+        display: block;
+        height: 4px;
+        background: var(--blue);
+        position: absolute;
+        bottom: 10px;
+        transition:  0.3s;
+      }
+      @media (min-width: 768px){
+        .hamburger-react{
+            display: none !important;
+        }
+        .stripe{
+            display: block;
+        }
+      }
+
+      @media (max-width: 425px){
+        .hamburger-react{
+            display: block;
+        }
+        .stripe{
+            display: none;
+        }
+      }
 }
 .icons-background{
     background-image: url('/images/fondo_iconos_multicolor.png');
@@ -78,12 +105,21 @@ html, body {
         max-width: 100%;
         aspect-ratio: 1/1;
     }
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
     #circular_text {
         position: absolute;
         z-index: 2;
         fill: var(--green-light);
         right: 0;
         top: 0;
+        animation: rotation 15s infinite linear;
       }
     .hero-image-badge{
             background-color: var(--dark-blue);
@@ -166,9 +202,15 @@ html, body {
         }
     }
 }
-
+#demo_button{
+        position: fixed;
+        background-color: var(--green-light);
+        border: none;
+        bottom: 25px;
+        right: 25px;
+}
 #our_clients{
-    min-height:235px ;
+    min-height:235px;
 }
 
 

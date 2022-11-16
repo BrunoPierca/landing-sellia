@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import { AboutUs, Blog, Clients, ContactUs, Features, Footer, Hero, NavBar, Products, Support } from "./Components";
+import { AboutUs, Blog, Clients, ContactUs, DemoButton, Features, Footer, Hero, NavBar, Products, Support } from "./Components";
 
 export const LandingPage = () => {
 	return (
@@ -9,11 +9,12 @@ export const LandingPage = () => {
 				<Hero />
 				<Clients />
 				<AboutUs />
-				{/* <Products /> */}
+				<Products />
 				<Features />
 				<Support />
 				<Blog />
 				<ContactUs />
+				<DemoButton />
 				<Footer />
 			</Container>
 		</>

@@ -3,6 +3,7 @@ export * from "./Blog";
 export * from "./Clients";
 export * from "./ContactForm";
 export * from "./ContactUs";
+export * from "./DemoButton";
 export * from "./Features";
 export * from "./Footer";
 export * from "./Hero";
