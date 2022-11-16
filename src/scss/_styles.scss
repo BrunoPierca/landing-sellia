@@ -61,56 +61,110 @@ html, body {
 }
 .icons-background{
     background-image: url('/images/fondo_iconos_multicolor.png');
-
 }
 #hero{
     // height: 601px;
     .hero-cta{
-        border-width: 0 0 0 5px;
+        border-width: 0 0 0 4px;
         border-style: solid; 
         border-color: var(--blue);
     }
 
     .photo-container{
-        margin: auto;
-        min-height: 300px;
         position: relative;
     }
     .photo-container > img{
         object-fit: cover;
+        max-width: 100%;
         aspect-ratio: 1/1;
-        border-radius: 15px;
     }
-    #image1 {
-
-        max-width: 200px;
-        max-height: 200px;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 1;
-    }
-    #image2 {
-        max-width: 150px;
-        max-height: 150px;
-        position: absolute;
-        right: 0;
-        bottom: 0;
-    }
-    #circular-text {
+    #circular_text {
         position: absolute;
         z-index: 2;
-        fill: var(--green);
-        right: -55px;
+        fill: var(--green-light);
+        right: 0;
+        top: 0;
       }
-      #hero-image-badge{
-        background-color: var(--dark-blue);
-        color: white;
-        border-radius: 12px;
-        padding: 5px;
-        text-align: center;
-        font-size: 16px;
-      }
+    .hero-image-badge{
+            background-color: var(--dark-blue);
+            width: 80%;
+            color: white;
+            border-radius: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 0px;
+            left: 45%;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        svg{
+            padding: 0;
+            width: auto;
+        }
+        p{
+            width: auto;
+            padding: 0;
+            margin: 0;
+        }
+    }
+    @media (min-width: 320px){
+        #circular_text{
+            width: 95px;
+            top: 5px;
+            right: -25px ;
+            
+        }
+        .hero-image-badge{
+            font-size: 10px;
+        }
+    }
+    @media (min-width: 375px){
+        #circular_text{
+            width: 110px;
+            top: 15px;
+            right: -25px ;
+        }
+    }
+    @media (min-width: 425px){
+        #circular_text{
+            width: 128px;
+            top: 15px;
+            right: -25px ;
+        }
+        .hero-image-badge{
+            font-size: 12px;
+        }
+    }
+    @media (min-width: 768px){
+        #circular_text{
+            width: 240px;
+            top: 35px;
+            right: -35px ;
+        }
+        .hero-image-badge{
+            font-size: 14px;
+        }
+    }
+    @media (min-width:1024px) {
+            #circular_text{
+                width: 128px;
+                top: 15px;
+                right: -25px ;
+            }
+            .hero-image-badge{
+                width: 90%;
+                font-size: 12px;
+            }
+        }
+    @media (min-width:1440px) {
+        #circular_text{
+            width: 160px;
+            top: 20px;
+            right: -30px ;
+        }
+        .hero-image-badge{
+            font-size: 16px;
+        }
+    }
 }
 
 #our_clients{
