@@ -42,6 +42,9 @@ html, body {
     .background-bone{
         background-color: var(--bone);
     }
+    .background-white{
+        background-color: white;
+    }
     a{
         color: black !important;
     }   
@@ -88,6 +91,7 @@ html, body {
 }
 .icons-background{
     background-image: url('/images/fondo_iconos_multicolor.png');
+    background-repeat: repeat-y;
 }
 #hero{
     // height: 601px;
@@ -211,36 +215,119 @@ html, body {
 }
 #our_clients{
     min-height:235px;
+    p{
+        width: auto;
+    }
+
+    @media (min-width: 320px){
+        svg{
+            width: 82px;
+            height: 82px;
+        }
+        p{
+            margin-top: 15px !important;
+            font-size: 16px
+        }
+    }
+
+    @media (min-width: 375px){
+        p{
+            font-size: 18px
+        }
+
+    }
+
+    @media (min-width: 425px){
+        p{
+            font-size: 20px
+        }
+
+    }
+
+    @media (min-width: 768px){
+        svg{
+            width: 41px;
+            height: 41px;
+        }
+        p{
+            margin-top: auto !important;
+
+            font-size: 13px;
+        }
+
+    }
+
+    @media (min-width:1024px) {
+        p{
+            font-size: 20px
+        }
+    }
+
+    @media (min-width:1440px) {
+        p{
+            font-size: 28px
+        }
+    }
+
+}
+
+#about_us{
+    .icon-container{
+        position: relative;
+    }
+    .icon-container > svg{
+        position: relative;
+    }
+    .heart-icon{
+        position: absolute;
+    }
 }
 
 
 
 #products {
-    #products-column{
-        background-color: #E2F0FF;
+
+    .products-grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        ' . .'
+        ' . .'
+        'fw fw';
+        gap: 10px;
     }
     .products-grid-item{
-      background-color: #F1F1F1;
-      height: 160px;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      border-radius: 12px;
-        
+        width: 100%;
+        background-color: #F1F1F1;
+        border-radius: 12px;
+    }
+    .full-width-product{
+        width: 100%;
+
+        grid-area: fw;
+        margin-top: 10px;
+        background-color: #F1F1F1;
+        border-radius: 12px;
     }
   
   }
 
 #features_section{
-    .feature-container{
+    .features-grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        gap: 10px;
+    }
+    .features-grid-item{
+        width: 100%;
         background-color: var(--blue);
         border-radius: 10px;
-        height: 100px;
-        // width: 190px;
-        margin: 5px;
+        font-size: 14px;
+        color:white;
     }
-    .feature-container > * {
-        color: white;
-        
+    .features-grid-item > svg{
+        height: 25px;
+        width: 25px;
     }
 }
 
