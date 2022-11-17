@@ -42,8 +42,14 @@ html, body {
     .background-bone{
         background-color: var(--bone);
     }
+    .background-green{
+        background-color: var(--green-light);
+    }
     .background-white{
         background-color: white;
+    }
+    .border-none{
+        border: none;
     }
     a{
         color: black !important;

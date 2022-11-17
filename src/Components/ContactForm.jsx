@@ -23,7 +23,9 @@ export const ContactForm = () => {
 					<input type='text' name='Comentary' placeholder='Comentarios' />
 				</Row>
 				<Row>
-					<Button type='submit'>Enviar</Button>
+					<Button className='background-green border-none ' type='submit'>
+						Enviar
+					</Button>
 				</Row>
 			</Form>
 		</Col>
