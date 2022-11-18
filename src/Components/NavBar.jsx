@@ -6,8 +6,7 @@ export const NavBar = () => {
 	const [isOpen, setOpen] = useState(false);
 
 	const handleMouseEnter = (e) => {
-		const paddingX = 16;
-		setPosition({ left: e.target.getBoundingClientRect().x - 10, width: e.target.offsetWidth - paddingX });
+		setPosition({ left: e.target.getBoundingClientRect().x, width: e.target.offsetWidth });
 	};
 	const removeStripe = () => {
 		setPosition({ left: "100%", width: 0 });
