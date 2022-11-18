@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Col, Container, Nav, Navbar, NavDropdown, Row } from "react-bootstrap";
-import { Cross as Hamburger } from "hamburger-react";
+import { Container, Nav, Navbar } from "react-bootstrap";
+import { Cross } from "hamburger-react";
 export const NavBar = () => {
 	const [position, setPosition] = useState({ left: "100%", width: 0 });
 	const [isOpen, setOpen] = useState(false);
@@ -19,7 +19,7 @@ export const NavBar = () => {
 					<Navbar.Brand href='/'>
 						<img className='ms-0' src='/images/SelliaLogoFooter.png' alt='Sellia logo' height='36.79px' width='120px' />
 					</Navbar.Brand>
-					<Hamburger toggled={isOpen} toggle={setOpen} label='Mostrar menu' />
+					<Cross toggled={isOpen} toggle={setOpen} label='Mostrar menu' />
 
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ms-auto'>

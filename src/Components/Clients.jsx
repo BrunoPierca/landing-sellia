@@ -1,5 +1,4 @@
-import React from "react";
-import { Col, Row, Button, Stack } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 // React-multi-carousel docs:
 // https://www.npmjs.com/package/react-multi-carousel

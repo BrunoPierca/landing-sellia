@@ -1,6 +1,5 @@
-import React from "react";
-import { Container, Row } from "react-bootstrap";
-import "animate.css";
+import { Row } from "react-bootstrap";
+// import "animate.css";
 
 export const AboutUs = () => {
 	return (
