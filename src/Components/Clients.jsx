@@ -76,24 +76,6 @@ export const Clients = () => {
 							</div>
 						))}
 					</Carousel>
-					{/* <Carousel controls={false} indicators={false}>
-						<Carousel.Item>
-							<Stack direction='horizontal' className='h-100 justify-content-center align-items-center' gap={3}>
-								<img width='180px' height='82px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='82px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='82px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='82px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-							</Stack>
-						</Carousel.Item>
-						<Carousel.Item>
-							<Stack direction='horizontal' className='h-100 justify-content-center align-items-center' gap={3}>
-								<img width='180px' height='52px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='52px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='52px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-								<img width='180px' height='52px' className='d-block w-100' src='/images/grupoBimbo.png' alt={"Bimbo Logo"} />
-							</Stack>
-						</Carousel.Item>
-					</Carousel> */}
 				</Col>
 			</Row>
 		</section>

@@ -8,7 +8,7 @@ export const LandingPage = () => {
 				<NavBar />
 				<div className='extended-background icons-background'>
 					<Hero />
-					<Clients />
+					{/* <Clients /> */}
 				</div>
 
 				<AboutUs />
