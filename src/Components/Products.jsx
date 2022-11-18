@@ -2,8 +2,8 @@ import { Col, Row } from "react-bootstrap";
 
 export const Products = () => {
 	return (
-		<div className=' my-5 extended-background icons-background'>
-			<section id='products' className='icons-background'>
+		<div className=' py-5 extended-background icons-background'>
+			<section id='products' className=''>
 				<Row className='my-5'>
 					<Col sm={12} lg={4} className='pt-5 '>
 						<h4 className='text-center w-75 mx-auto pb-5 fw-600'>Un producto para cada necesidad</h4>
