@@ -5,7 +5,7 @@ import { ContactForm } from "./ContactForm";
 export const ContactUs = () => {
 	return (
 		<section id='contact_us'>
-			<Row className=''>
+			<Row>
 				<Col sm={12} lg={5} className='background-primary ps-5 py-5 text-white'>
 					<h5 className='fw-300 ms-5'>
 						Pongámonos en <strong className='fw-600'>contacto</strong>
