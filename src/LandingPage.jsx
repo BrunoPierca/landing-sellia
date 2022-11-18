@@ -6,8 +6,11 @@ export const LandingPage = () => {
 		<>
 			<Container className='g-0' fluid>
 				<NavBar />
-				<Hero />
-				<Clients />
+				<div className='extended-background icons-background'>
+					<Hero />
+					<Clients />
+				</div>
+
 				<AboutUs />
 				<Products />
 				<Features />

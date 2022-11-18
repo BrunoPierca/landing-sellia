@@ -4,7 +4,7 @@ import { Button, Container } from "react-bootstrap";
 
 export const Hero = () => {
 	return (
-		<section id='hero' className='icons-background'>
+		<section id='hero' className=''>
 			<Row className='mx-5'>
 				<Col sm={12} lg={8} className=' mt-5 pe-0'>
 					<Col className='hero-cta ps-3'>

@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 
 export const Products = () => {
 	return (
-		<div className=' my-5'>
+		<div className=' my-5 extended-background icons-background'>
 			<section id='products' className='icons-background'>
 				<Row className='my-5'>
 					<Col sm={12} lg={4} className='pt-5 '>
