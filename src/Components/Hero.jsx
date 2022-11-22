@@ -7,7 +7,11 @@ export const Hero = () => {
 				<Col sm={12} lg={8} className=' mt-5 pe-0'>
 					<Col className='hero-cta ps-3'>
 						<h1 className='fw-500 mb-5'>
-							Convierte una conversación en una <strong>oportunidad</strong> de <span>negocio</span>.
+							Convierte una conversación en una <strong>oportunidad</strong> de{" "}
+							<span className='hero-curl-container'>
+								<img className='hero-curl' src='/images/rulo.png' alt='' /> negocio
+							</span>
+							.
 						</h1>
 
 						<p className='fw-500 w-75 my-5'>

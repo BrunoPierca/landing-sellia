@@ -110,7 +110,6 @@ html, body {
     background-repeat: repeat;
 }
 #hero{
-    // height: 601px;
     .hero-cta{
         border-width: 0 0 0 4px;
         border-style: solid; 
@@ -124,6 +123,15 @@ html, body {
         object-fit: cover;
         max-width: 100%;
         aspect-ratio: 1/1;
+    }
+    .hero-curl-container{
+        position: relative;
+    }
+    .hero-curl{
+        width: 125%;
+        position: absolute;
+        top: -18px;
+        left: -12px;
     }
     @keyframes rotation {
         from {

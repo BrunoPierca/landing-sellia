@@ -13,7 +13,7 @@ export const Blog = () => {
 						<Button className='blog-button py-2 px-4'>Visitar el blog</Button>
 					</Container>
 				</Col>
-				<Col sm={6} className='p-0 m-0'>
+				<Col sm={6} className='p-0 m-0 mt-md-5 mt-lg-0'>
 					<img src='/images/BlogScreen.png' alt='blog Screenshot' className='img-fluid' style={{ objectFit: "contain" }} />
 				</Col>
 			</Row>
