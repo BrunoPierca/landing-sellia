@@ -3,14 +3,14 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 export const Blog = () => {
 	return (
 		<section id='blog'>
-			<Row className='p-5 mb-0'>
+			<Row className='p-5 pb-0 mb-0'>
 				<Col sm={6} className='p-0 d-flex align-items-center mb-5 mb-md-0'>
 					<Container fluid>
 						<h2 className='fw-700 blue'>Mantente informado.</h2>
 						<p>
-							<strong className='fw-500'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</strong>
+							<strong className='fw-700 light-grey'>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.</strong>
 						</p>
-						<Button>Visitar el blog</Button>
+						<Button className='blog-button py-2 px-4'>Visitar el blog</Button>
 					</Container>
 				</Col>
 				<Col sm={6} className='p-0 m-0'>

@@ -3,11 +3,11 @@ import { Col, Row } from "react-bootstrap";
 export const Features = () => {
 	return (
 		<section id='features_section'>
-			<Row className='text-center py-5 mx-5'>
+			<Row className='text-center py-5 mx-3 mx-lg-5'>
 				<h2 className='dark-blue fw-300'>
 					Sellia lo tiene <strong className='fw-700'>todo.</strong>
 				</h2>
-				<Col sm={12} lg={7} className='py-5'>
+				<Col sm={12} lg={6} className='py-5 px-0  mt-0 mt-lg-5'>
 					<div className='features-grid'>
 						<div className='features-grid-item py-3 justify-content-center align-items-center'>
 							<svg className='w-100' viewBox='0 0 34 34' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -84,7 +84,7 @@ export const Features = () => {
 							</svg>
 							<p className='w-100 fw-500 mt-1'>Omnicanal</p>
 						</div>
-						<div className='features-grid-item py-3 justify-content-center align-items-center'>
+						<div className='features-grid-item mobile-full-width py-3 justify-content-center align-items-center'>
 							<svg viewBox='0 0 28 34' fill='none' xmlns='http://www.w3.org/2000/svg'>
 								<path
 									d='M22.3332 0.333344H5.6665C4.34042 0.333344 3.06865 0.860128 2.13097 1.79781C1.19329 2.73549 0.666504 4.00726 0.666504 5.33334V28.6667C0.666504 29.9928 1.19329 31.2645 2.13097 32.2022C3.06865 33.1399 4.34042 33.6667 5.6665 33.6667H22.3332C23.6593 33.6667 24.931 33.1399 25.8687 32.2022C26.8064 31.2645 27.3332 29.9928 27.3332 28.6667V5.33334C27.3332 4.00726 26.8064 2.73549 25.8687 1.79781C24.931 0.860128 23.6593 0.333344 22.3332 0.333344ZM23.9998 28.6667C23.9998 29.1087 23.8242 29.5326 23.5117 29.8452C23.1991 30.1578 22.7752 30.3333 22.3332 30.3333H5.6665C5.22448 30.3333 4.80055 30.1578 4.48799 29.8452C4.17543 29.5326 3.99984 29.1087 3.99984 28.6667V5.33334C3.99984 4.89132 4.17543 4.46739 4.48799 4.15483C4.80055 3.84227 5.22448 3.66668 5.6665 3.66668H22.3332C22.7752 3.66668 23.1991 3.84227 23.5117 4.15483C23.8242 4.46739 23.9998 4.89132 23.9998 5.33334V28.6667ZM15.1832 24.15C14.9907 23.9493 14.7512 23.8 14.4863 23.7156C14.2214 23.6312 13.9396 23.6143 13.6665 23.6667L13.3665 23.7667C13.2603 23.8032 13.1594 23.8536 13.0665 23.9167L12.8165 24.1167C12.6648 24.2752 12.5458 24.4621 12.4665 24.6667C12.3389 24.9702 12.304 25.3047 12.3663 25.628C12.4286 25.9513 12.5852 26.249 12.8165 26.4833C12.9823 26.63 13.1673 26.7534 13.3665 26.85C13.6716 26.9756 14.0071 27.0077 14.3305 26.9425C14.6539 26.8772 14.9507 26.7174 15.1832 26.4833C15.4871 26.177 15.6603 25.7648 15.6665 25.3333C15.6721 25.1147 15.6265 24.8978 15.5332 24.7C15.4488 24.498 15.3304 24.312 15.1832 24.15Z'
@@ -92,12 +92,12 @@ export const Features = () => {
 								/>
 							</svg>
 
-							<p className='w-100 fw-500 mt-1'>Envíos masivos</p>
+							<p className='w-100 fw-500 mt-1 '>Envíos masivos</p>
 						</div>
 					</div>
 				</Col>
-				<Col sm={12} lg={5}>
-					<img className='img-fluid' src='/images/mkUp.png' alt='Marketing Picture' />
+				<Col sm={12} lg={6} className='px-0'>
+					<img className='features-image my-5 my-lg-0 ' src='/images/mkUp.png' alt='Marketing Picture' />
 				</Col>
 			</Row>
 		</section>

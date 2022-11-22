@@ -22,7 +22,7 @@ export const NavBar = () => {
 					<Cross toggled={isOpen} toggle={setOpen} label='Mostrar menu' />
 
 					<Navbar.Collapse id='basic-navbar-nav'>
-						<Nav className='ms-auto'>
+						<Nav className='ms-auto text-center text-md-start'>
 							<Nav.Link href='#about_us' onMouseEnter={(e) => handleMouseEnter(e)} onMouseLeave={() => removeStripe()} className='fw-500 '>
 								Sobre Nosotros
 							</Nav.Link>

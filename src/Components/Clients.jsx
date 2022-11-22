@@ -23,9 +23,9 @@ const responsive = {
 export const Clients = () => {
 	const clientsInfo = [
 		{ name: "Bimbo", image: "/images/grupoBimbo.png" },
-		{ name: "Bimbo", image: "/images/grupoBimbo.png" },
-		{ name: "Bimbo", image: "/images/grupoBimbo.png" },
-		{ name: "Bimbo", image: "/images/grupoBimbo.png" },
+		{ name: "Bimbo1", image: "/images/grupoBimbo.png" },
+		{ name: "Bimbo2", image: "/images/grupoBimbo.png" },
+		{ name: "Bimbo3", image: "/images/grupoBimbo.png" },
 	];
 
 	return (

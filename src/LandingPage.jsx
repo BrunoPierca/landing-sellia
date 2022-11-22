@@ -4,11 +4,12 @@ import { AboutUs, Blog, Clients, ContactUs, DemoButton, Features, Footer, Hero, 
 export const LandingPage = () => {
 	return (
 		<>
+			<NavBar />
+
 			<Container className='g-0' fluid>
-				<NavBar />
 				<div className='extended-background icons-background'>
 					<Hero />
-					{/* <Clients /> */}
+					<Clients />
 				</div>
 
 				<AboutUs />

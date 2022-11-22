@@ -4,22 +4,30 @@ export const Footer = () => {
 	return (
 		<section id='footer'>
 			<Row className='mx-3 py-5'>
-				<Col sm={5}>
+				<Col sm={4}>
 					<img src='/images/SelliaLogoFooter.png' width='212px' height='65px' className='img-fluid' />
-					<p>Copyright © 2022 Sellia, All rights reserved.</p>
+					<p className='fw-500 mt-4'>Copyright © 2022 Sellia, All rights reserved.</p>
 				</Col>
-				<Col sm={5}>
+				<Col sm={6} className='text-center'>
 					<Row>
-						<a href='#about_us'>¿Quienes somos?</a>
+						<a className='text-decoration-none fw-500 ' href='#about_us'>
+							¿Quienes somos?
+						</a>
 					</Row>
 					<Row>
-						<a href='#products'>Productos</a>
+						<a className='text-decoration-none fw-500 mt-3' href='#products'>
+							Productos
+						</a>
 					</Row>
 					<Row>
-						<a href='#blog'>Blog</a>
+						<a className='text-decoration-none fw-500 mt-3' href='#blog'>
+							Blog
+						</a>
 					</Row>
 					<Row>
-						<a href='#contact_us'>Contacto</a>
+						<a className='text-decoration-none fw-500 mt-3' href='#contact_us'>
+							Contacto
+						</a>
 					</Row>
 				</Col>
 				<Col sm={2}>
