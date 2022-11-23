@@ -41,7 +41,7 @@ export const Products = () => {
 								</p>
 							</Col>
 							<Col sm={4} className='mt-5 justify-content-center d-flex pb-5'>
-								<img src='/images/selliaPhone.png' className='img-fluid ' alt='Sellia phone' />
+								<img src='./images/selliaPhone.png' className='img-fluid ' alt='Sellia phone' />
 							</Col>
 						</Row>
 					</Col>

@@ -17,7 +17,7 @@ export const NavBar = () => {
 			<Navbar expand='md' expanded={isOpen}>
 				<Container>
 					<Navbar.Brand href='/'>
-						<img className='ms-0' src='/images/SelliaLogoFooter.png' alt='Sellia logo' height='36.79px' width='120px' />
+						<img className='ms-0' src='./images/SelliaLogoFooter.png' alt='Sellia logo' height='36.79px' width='120px' />
 					</Navbar.Brand>
 					<Cross toggled={isOpen} toggle={setOpen} label='Mostrar menu' />
 
@@ -41,7 +41,7 @@ export const NavBar = () => {
 				</Container>
 				{/* <Row className='mx-1 d-flex align-items-center nav-bar-container'>
 					<Col>
-						<img className='ms-4' src='/images/SelliaLogoFooter.png' alt='Sellia logo' height='36.79px' width='120px' />
+						<img className='ms-4' src='./images/SelliaLogoFooter.png' alt='Sellia logo' height='36.79px' width='120px' />
 					</Col>
 					<Col>
 						<Nav activeKey='/home' className='justify-content-end'>

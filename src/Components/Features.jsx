@@ -97,7 +97,7 @@ export const Features = () => {
 					</div>
 				</Col>
 				<Col sm={12} lg={6} className='px-0'>
-					<img className='features-image my-5 my-lg-0 ' src='/images/mkUp.png' alt='Marketing Picture' />
+					<img className='features-image my-5 my-lg-0 ' src='./images/mkUp.png' alt='Marketing Picture' />
 				</Col>
 			</Row>
 		</section>

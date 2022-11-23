@@ -9,7 +9,7 @@ export const Hero = () => {
 						<h1 className='fw-500 mb-5'>
 							Convierte una conversación en una <strong>oportunidad</strong> de{" "}
 							<span className='hero-curl-container'>
-								<img className='hero-curl' src='/images/rulo.png' alt='' /> negocio
+								<img className='hero-curl' src='./images/rulo.png' alt='' /> negocio
 							</span>
 							.
 						</h1>
@@ -24,7 +24,7 @@ export const Hero = () => {
 				</Col>
 				<Col sm={12} lg={4} className='py-5 ps-0'>
 					<div className='photo-container'>
-						<img src='/images/hero-image.png' alt='' />
+						<img src='./images/hero-image.png' alt='' />
 
 						<svg id='circular_text' viewBox='0 0 100 100'>
 							<defs>

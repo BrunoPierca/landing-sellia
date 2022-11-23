@@ -6,14 +6,14 @@ export const Support = () => {
 			<section id='support'>
 				<Row className='mx-5 py-5'>
 					<Col sm={12} lg={5} className='d-flex justify-content-center mb-5 mb-lg-0'>
-						<img src='/images/selliaPhone.png' alt='Sellia Phone' />
+						<img src='./images/selliaPhone.png' alt='Sellia Phone' />
 					</Col>
 					<Col sm={12} lg={7} className='my-5'>
 						<h2 className='text-center text-lg-start fw-300 my-5'>
 							El{" "}
 							<span className='striked-container text-white'>
 								<strong className='fw-700'>soporte</strong>
-								<img src='/images/rayado.png' className='striked-image' alt='Sellia Phone' />
+								<img src='./images/rayado.png' className='striked-image' alt='Sellia Phone' />
 							</span>{" "}
 							nos distingue
 						</h2>
