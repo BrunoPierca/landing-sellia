@@ -4,6 +4,7 @@ import { Col, Row } from "react-bootstrap";
 // https://www.npmjs.com/package/react-multi-carousel
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+const RMCarousel = Carousel.default ? Carousel.default : Carousel;
 
 const responsive = {
 	desktop: {
@@ -55,7 +56,7 @@ export const Clients = () => {
 					</Row>
 				</Col>
 				<Col md={8}>
-					<Carousel
+					<RMCarousel
 						swipeable={false}
 						draggable={false}
 						showDots={false}
@@ -75,7 +76,7 @@ export const Clients = () => {
 								<img className='d-block w-100 px-md-4 px-1' title={client.name} src={client.image} alt={client.name + " logo"} />
 							</div>
 						))}
-					</Carousel>
+					</RMCarousel>
 				</Col>
 			</Row>
 		</section>
