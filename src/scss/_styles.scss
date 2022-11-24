@@ -314,11 +314,10 @@ html, body {
     .icon-container{
         position: relative;
     }
-    .icon-container > svg{
-        position: relative;
-    }
     .heart-icon{
         position: absolute;
+        top: calc(50% - 45px/2);
+        right:calc(50% - 35px/2);
     }
 }
 
