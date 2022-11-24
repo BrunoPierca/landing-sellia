@@ -10,28 +10,28 @@ export const Products = () => {
 						<Col sm={12}>
 							<div className='products-grid mx-3 mx-lg-5'>
 								<div className='products-grid-item d-flex justify-content-center align-items-center'>
-									<p className='fw-700 dark-blue py-4 '>Franquicias</p>
+									<p className='fw-700 dark-blue py-4 my-3'>Franquicias</p>
 								</div>
 								<div className='products-grid-item  d-flex justify-content-center align-items-center'>
-									<p className='fw-700 dark-blue py-4 '>Enterprise</p>
+									<p className='fw-700 dark-blue py-4 my-3'>Enterprise</p>
 								</div>
 								<div className='products-grid-item d-flex justify-content-center align-items-center'>
-									<p className='fw-700 dark-blue py-4 '>Trivias</p>
+									<p className='fw-700 dark-blue py-4 my-3'>Trivias</p>
 								</div>
 								<div className='products-grid-item d-flex justify-content-center align-items-center'>
-									<p className='fw-700 dark-blue py-4'>RRHH</p>
+									<p className='fw-700 dark-blue py-4 my-3'>RRHH</p>
 								</div>
 								<div className='d-flex full-width-product mb-4 justify-content-center align-items-center'>
-									<p className='fw-700 dark-blue py-4'>Hazlo a tu medida!</p>
+									<p className='fw-700 dark-blue py-4 my-3'>Hazlo a tu medida!</p>
 								</div>
 							</div>
 						</Col>
 					</Col>
-					<Col sm={12} lg={8} id='products-column' className='background-bone'>
+					<Col sm={12} lg={8} id='products-column' className='background-light-blue'>
 						<Row>
 							<Col sm={7} className='text-center mt-5'>
 								<h3 className='fw-700 dark-blue my-3'>Productos</h3>
-								<p className='fw-500 mx-2'>
+								<p className='fw-500 mx-2 mb-0'>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, amet donec morbi vitae semper at vulputate. Elementum
 									vitae, mattis orci ultrices scelerisque sed. Magna praesent lectus quisque diam vivamus sed. Amet, egestas malesuada
 									tortor augue pellentesque. Ut aliquam blandit vulputate pulvinar ipsum risus. Nulla neque augue et tempor viverra odio

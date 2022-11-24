@@ -6,15 +6,15 @@ export const Hero = () => {
 			<Row className='mx-5'>
 				<Col sm={12} lg={8} className=' mt-5 pe-0'>
 					<Col className='hero-cta ps-3'>
-						<h1 className='fw-500 mb-5'>
-							Convierte una conversación en una <strong>oportunidad</strong> de{" "}
+						<h1 className='fw-500 mb-0'>
+							Convierte una conversación en una <strong>oportunidad</strong> de
 							<span className='hero-curl-container'>
 								<img className='hero-curl' src='./images/rulo.png' alt='' /> negocio
 							</span>
 							.
 						</h1>
 
-						<p className='fw-500 w-75 my-5'>
+						<p className='fw-500 mb-0 w-75 my-5'>
 							La plataforma de comunicación con el cliente de Sellia te ayuda a mantener satisfechos a tus clientes, ayuda a que tu empresa
 							siempre esté disponible.
 						</p>

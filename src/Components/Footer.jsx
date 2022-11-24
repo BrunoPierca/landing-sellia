@@ -6,26 +6,26 @@ export const Footer = () => {
 			<Row className='mx-3 py-5'>
 				<Col sm={4} className='text-center text-lg-start'>
 					<img src='./images/SelliaLogoFooter.png' className='img-fluid' width='212px' height='65px' />
-					<p className='fw-500 mt-4 text-md-start'>Copyright © 2022 Sellia, All rights reserved.</p>
+					<p className='fw-500 mb-0 mt-4 text-md-start'>Copyright © 2022 Sellia, All rights reserved.</p>
 				</Col>
 				<Col sm={6} className='text-center'>
 					<Row>
-						<a className='text-decoration-none fw-500 ' href='#about_us'>
+						<a className='text-decoration-none fw-500 mb-0 ' href='#about_us'>
 							¿Quienes somos?
 						</a>
 					</Row>
 					<Row>
-						<a className='text-decoration-none fw-500 mt-3' href='#products'>
+						<a className='text-decoration-none fw-500 mb-0 mt-3' href='#products'>
 							Productos
 						</a>
 					</Row>
 					<Row>
-						<a className='text-decoration-none fw-500 mt-3' href='#blog'>
+						<a className='text-decoration-none fw-500 mb-0 mt-3' href='#blog'>
 							Blog
 						</a>
 					</Row>
 					<Row>
-						<a className='text-decoration-none fw-500 mt-3' href='#contact_us'>
+						<a className='text-decoration-none fw-500 mb-0 mt-3' href='#contact_us'>
 							Contacto
 						</a>
 					</Row>
