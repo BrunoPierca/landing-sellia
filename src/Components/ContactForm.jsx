@@ -10,16 +10,16 @@ export const ContactForm = () => {
 				<Row>
 					<input className='px-3 py-2' type='email' name='email' id='emailInput' placeholder='Correo electrónico' />
 				</Row>
-				<Row className='d-flex justify-content-between'>
+				<Row>
 					<Col sm={6} className='p-0'>
 						<input className='px-3 py-2 w-100' type='tel' name='phoneNumber' id='phoneInput' placeholder='Número telefónico' />
 					</Col>
-					<Col sm={6} className='d-flex justify-content-start justify-content-md-end mt-3 mt-md-0 p-0'>
-						<input className='px-3 py-2 w-75' type='text' name='PhoneCarrier' placeholder='Compañía' />
+					<Col sm={6} className='mt-md-0'>
+						<input className='py-2' type='text' name='PhoneCarrier' placeholder='Compañía' />
 					</Col>
 				</Row>
 				<Row>
-					<input className='px-3 py-2 input-comentarios' type='text' name='Comentary' placeholder='Comentarios' />
+					<input className='py-2 input-comentarios' type='text' name='Comentary' placeholder='Comentarios' />
 				</Row>
 				<Row>
 					<Button className='background-green border-none ' type='submit'>

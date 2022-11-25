@@ -61,7 +61,8 @@ html, body {
         border: none;
     }
     a{
-        color: black !important;
+        transition: .3s ease;
+        color: black;
     }   
 }
 @media (min-width: 1300px) {
@@ -74,7 +75,7 @@ html, body {
         margin: 0 auto;
         max-width: 1300px;
     }
-    div.container-fluid > #nav_bar , #Footer , .extended-background {
+    div.container-fluid > #nav_bar, .extended-background {
         max-width: 100%;
     }
 
@@ -88,6 +89,8 @@ html, body {
     background: white;
     top: 0;
     box-shadow: 0px 5px 10px 0px rgb(0 0 0 / 5%);
+   
+    a { color: black; }
     .nav-bar-container{
         height: 116.79px;
     }
@@ -123,12 +126,12 @@ html, body {
     background-repeat: repeat;
 }
 #hero{
-    
     margin-top: 100px;
+    
     .hero-cta{
         border-width: 0 0 0 4px;
         border-style: solid; 
-        border-color: var(--blue);
+        border-color: rgb(144 170 255);
     }
 
     .photo-container{
@@ -148,6 +151,11 @@ html, body {
         top: -18px;
         left: -12px;
     }
+
+    button {
+        padding: 12px 16px;
+    }
+
     @keyframes rotation {
         from {
           transform: rotate(0deg);
@@ -246,11 +254,13 @@ html, body {
     }
 }
 #demo_button{
-        position: fixed;
-        background-color: var(--green-light);
-        border: none;
-        bottom: 25px;
-        right: 25px;
+    position: fixed;
+    background-color: var(--green-light);
+    border: none;
+    bottom: 55px;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+    padding: 13px 16px;
 }
 #our_clients{
     min-height:235px;
@@ -311,6 +321,8 @@ html, body {
 }
 
 #about_us{
+    padding: 80px 10px;
+
     .icon-container{
         position: relative;
     }
@@ -353,6 +365,8 @@ html, body {
 #features_section{
 
     .features-grid-item{
+        display: flex;
+        flex-direction: column;
         width: 100%;
         background-color: var(--blue);
         padding: 20px;
@@ -366,8 +380,7 @@ html, body {
         width: 25px;
     }
 
-
-
+    p { margin-bottom: 0; }
 
     @media (min-width: 320px) {
         .features-grid{
@@ -393,8 +406,6 @@ html, body {
     
     @media (min-width: 375px) {
     }
-    
-
     
     @media (min-width: 768px) {
         .features-grid{
@@ -428,6 +439,7 @@ html, body {
 }
 
 #support{
+    padding: 50px 0;
     color: white;
     .striked-container{
         position: relative;
@@ -455,6 +467,8 @@ html, body {
 }
 
 #contact_us{
+    border-top: 1px solid var(--almost-white);
+
     .contact-info-row{
         p{
             font-size: 13px;
@@ -464,6 +478,19 @@ html, body {
     .icon-container{
         position: relative;
     }
+
+    .column-left {
+        padding: 60px 10px;
+    }
+
+    .column-right {
+        display: flex;
+        align-items: center;
+        padding: 60px 10px;
+        margin: 0 auto;
+    }
+
+    button { padding: 12px; }
 
     @media (min-width: 320px){
         .icon-container > svg{
@@ -483,7 +510,21 @@ html, body {
             top: -50px;
         }
     }
+
+    @media (min-width: 1300px){
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            background-color: var(--blue);
+            height: 100%;
+            width: calc(50% - 1300px / 2);
+        }
+    }
 }
+
 #contact_form{
     input{
         border: 2.5px solid;
@@ -493,5 +534,18 @@ html, body {
     .input-comentarios{
        padding-bottom: 150px !important;
     }
+}
 
+#footer {
+    border-top: 1px solid var(--almost-white);
+
+    .list-group-item {
+        border: none;
+    }
+
+    .content-social {
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
 }

@@ -4,7 +4,7 @@ import "animate.css";
 export const AboutUs = () => {
 	return (
 		<div className='extended-background background-bone'>
-			<section id='about_us' className='text-center py-5'>
+			<section id='about_us' className='text-center'>
 				<Row className='text-center mx-2 mx-md-5'>
 					<div className='icon-container'>
 						<svg width='124' height='119' viewBox='0 0 124 119' fill='none' xmlns='http://www.w3.org/2000/svg'>

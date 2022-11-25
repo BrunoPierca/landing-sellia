@@ -19,7 +19,7 @@ export const Hero = () => {
 							siempre esté disponible.
 						</p>
 
-						<Button className='mt-5'>Solicitar una demo</Button>
+						<Button className='mt-5 fw-500'>Solicitar una demo</Button>
 					</Col>
 				</Col>
 				<Col sm={12} lg={4} className='py-5 ps-0'>
@@ -37,10 +37,9 @@ export const Hero = () => {
 										a 37,37 0 1,1 -74,0'
 								/>
 							</defs>
-							<text fontSize='10px'>
-								<textPath href='#circle' className='fw-700'>
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur architecto labore dignissimos, facere cum harum
-									doloribus deleniti, debitis sunt est consequuntur soluta molestiae. Odio ea necessitatibus porro enim repudiandae!
+							<text fontSize='11.7px'>
+								<textPath href='#circle' className='fw-300'>
+									Siempre disponible - Siempre disponible -
 								</textPath>
 							</text>
 						</svg>

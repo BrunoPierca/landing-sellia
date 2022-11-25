@@ -27,7 +27,7 @@ export const NavBar = () => {
 								href='#about_us'
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
-								className='fw-500 mb-0'
+								className='mb-0'
 							>
 								Sobre Nosotros
 							</Nav.Link>
@@ -35,18 +35,18 @@ export const NavBar = () => {
 								href='#products'
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
-								className='fw-500 mb-0'
+								className='mb-0'
 							>
 								Productos
 							</Nav.Link>
-							<Nav.Link href='#blog' onMouseEnter={(e) => handleMouseEnter(e)} onMouseLeave={() => removeStripe()} className='fw-500 mb-0'>
+							<Nav.Link href='#blog' onMouseEnter={(e) => handleMouseEnter(e)} onMouseLeave={() => removeStripe()} className='mb-0'>
 								Blog
 							</Nav.Link>
 							<Nav.Link
 								href='#contact_us'
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
-								className='fw-500 mb-0'
+								className='mb-0'
 							>
 								Contacto
 							</Nav.Link>
