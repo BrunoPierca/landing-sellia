@@ -2,7 +2,11 @@ import React from "react";
 
 export const SupportChatMessage = ({ element }) => {
 	return (
-		<li key={element.name} className={`message-${element.align + " " + element.name}`}>
+		<li
+			className={`animate__animated ${element.align === "left" ? "animate__slideInLeft" : "animate__slideInRight"}  message-${
+				element.align + " " + element.name
+			}`}
+		>
 			{/* <div className={`sp-${element.name}`}>
         <span className={`spinme-${element.align}`}>
             <div className='spinner'>

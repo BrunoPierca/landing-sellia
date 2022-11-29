@@ -75,7 +75,7 @@ export const Support = () => {
 	};
 
 	useEffect(() => {
-		delay(2000).then(() => {
+		delay(1500).then(() => {
 			if (chatMessages.length && messages !== false) {
 				setMessages([...messages, chatMessages[0]]);
 				chatMessages.shift();
@@ -94,7 +94,7 @@ export const Support = () => {
 								<div className='chat-container'>
 									<div className='chat-listcontainer'>
 										<ul className='chat-message-list'>
-											{messages !== false ? messages.map((element) => <SupportChatMessage element={element} />) : ""}
+											{messages !== false ? messages.map((element) => <SupportChatMessage key={element.name} element={element} />) : ""}
 										</ul>
 									</div>
 								</div>

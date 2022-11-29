@@ -1,5 +1,4 @@
 import { Row } from "react-bootstrap";
-import "animate.css";
 
 export const AboutUs = () => {
 	return (

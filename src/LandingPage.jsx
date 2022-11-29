@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { AboutUs, Blog, Clients, ContactUs, DemoButton, Features, Footer, Hero, NavBar, Products, Support } from "./Components";
+import "animate.css";
 
 export const LandingPage = () => {
 	const [bgPosition, setBgPosition] = useState("0 0");
@@ -29,7 +30,7 @@ export const LandingPage = () => {
 				<Features />
 				<Support />
 				<Blog />
-				{/* <ContactUs /> */}
+				<ContactUs />
 				<DemoButton />
 				<Footer />
 			</Container>
