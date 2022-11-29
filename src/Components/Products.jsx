@@ -41,7 +41,10 @@ export const Products = () => {
 								</p>
 							</Col>
 							<Col sm={4} className='mt-5 justify-content-center d-flex pb-5'>
-								<img src='./images/selliaPhone.png' className='img-fluid ' alt='Sellia phone' />
+								<div className='phone-container'>
+									<img src='./images/selliaPhoneNobg.png' className='img-fluid phone ' alt='Sellia phone' />
+									<img src='./images/Sellia_Franquicias.gif' className='img-fluid phone-content' alt='Sellia phone content' />
+								</div>
 							</Col>
 						</Row>
 					</Col>

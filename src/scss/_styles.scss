@@ -359,6 +359,20 @@ html, body {
         background-color: #F1F1F1;
         border-radius: 12px;
     }
+    .phone-container{
+        position: relative;
+    }
+    .phone{
+        z-index: 1;
+    }
+    .phone-content{
+        height: 90%;
+        width: 85%;
+        top: 32px;
+        z-index: 0;
+        position: absolute;
+        left: 22px;
+    }
   
   }
 
