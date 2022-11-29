@@ -10,3 +10,4 @@ export * from "./Hero";
 export * from "./NavBar";
 export * from "./Products";
 export * from "./Support";
+export * from "./SupportChatMessage";

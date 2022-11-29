@@ -1,10 +1,10 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { ContactForm } from "./ContactForm";
-import { SocialIcon } from 'react-social-icons';
+import { SocialIcon } from "react-social-icons";
 
 export const ContactUs = () => {
 	return (
-		<div id='contact_us' class="extended-background">
+		<div id='contact_us' className='extended-background'>
 			<section>
 				<Row>
 					<Col sm={12} lg={5} className='background-primary text-white column-left'>
@@ -14,7 +14,11 @@ export const ContactUs = () => {
 
 						<Row className='contact-info-row mt-4 '>
 							<Col sm={3} className='d-flex justify-content-center justify-content-md-end'>
-								<SocialIcon url="https://api.whatsapp.com/send/?phone=523317878856&text&type=phone_number&app_absent=0/" style={{ height: 30, width: 30 }} bgColor="#ffffff"/>
+								<SocialIcon
+									url='https://api.whatsapp.com/send/?phone=523317878856&text&type=phone_number&app_absent=0/'
+									style={{ height: 30, width: 30 }}
+									bgColor='#ffffff'
+								/>
 							</Col>
 							<Col className='text-center text-md-start'>
 								<h6>Whatsapp</h6>
@@ -26,7 +30,7 @@ export const ContactUs = () => {
 						</Row>
 						<Row className='contact-info-row  my-5'>
 							<Col sm={3} className='d-flex justify-content-center justify-content-md-end'>
-								<SocialIcon url="https://t.me/selliaonlinebot" style={{ height: 30, width: 30 }} bgColor="#ffffff"/>
+								<SocialIcon url='https://t.me/selliaonlinebot' style={{ height: 30, width: 30 }} bgColor='#ffffff' />
 							</Col>
 							<Col className='text-center text-md-start'>
 								<h6>Telegram</h6>
@@ -39,7 +43,7 @@ export const ContactUs = () => {
 
 						<Row className='contact-info-row  my-5'>
 							<Col sm={3} className='d-flex justify-content-center justify-content-md-end'>
-								<SocialIcon url="https://www.facebook.com/sellia.business" style={{ height: 30, width: 30 }} bgColor="#ffffff"/>
+								<SocialIcon url='https://www.facebook.com/sellia.business' style={{ height: 30, width: 30 }} bgColor='#ffffff' />
 							</Col>
 							<Col className='text-center text-md-start'>
 								<h6>Facebook Chat</h6>
@@ -52,7 +56,7 @@ export const ContactUs = () => {
 
 						<Row className='contact-info-row  my-5'>
 							<Col sm={3} className='d-flex justify-content-center justify-content-md-end'>
-								<SocialIcon url="mailto:sellia@mail.com" style={{ height: 30, width: 30 }} bgColor="#ffffff"/>
+								<SocialIcon url='mailto:sellia@mail.com' style={{ height: 30, width: 30 }} bgColor='#ffffff' />
 							</Col>
 							<Col className='text-center text-md-start'>
 								<h6>E-mail</h6>

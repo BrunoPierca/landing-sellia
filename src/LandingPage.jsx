@@ -29,7 +29,7 @@ export const LandingPage = () => {
 				<Features />
 				<Support />
 				<Blog />
-				<ContactUs />
+				{/* <ContactUs /> */}
 				<DemoButton />
 				<Footer />
 			</Container>

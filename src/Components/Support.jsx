@@ -1,12 +1,105 @@
+import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import { SupportChatMessage } from "./SupportChatMessage";
+function delay(time) {
+	return new Promise((resolve) => setTimeout(resolve, time));
+}
+const chatMessages = [
+	{
+		name: "ms2",
+		msg: "Lorem Ipsum 2",
+		delay: 6000,
+		align: "left",
+		showTime: true,
+		time: "19:58",
+	},
+	{
+		name: "ms3",
+		msg: "Lorem Ipsum 3",
+		delay: 3000,
+		align: "right",
+		showTime: true,
+		time: "19:58",
+	},
+	{
+		name: "ms4",
+		msg: "Lorem Ipsum 4",
+		delay: 7000,
+		align: "left",
+		showTime: true,
+		time: "19:58",
+	},
+	{
+		name: "ms5",
+		msg: "Lorem Ipsum 5",
+		delay: 3000,
+		align: "right",
+		showTime: true,
+		time: "19:58",
+	},
+	{
+		name: "ms6",
+		msg: "Lorem Ipsum 6",
+		delay: 11000,
+		align: "left",
+		showTime: false,
+		time: "19:58",
+	},
+	{
+		name: "ms7",
+		msg: "Lorem Ipsum 7",
+		delay: 6000,
+		align: "right",
+		showTime: true,
+		time: "19:58",
+	},
+];
 
 export const Support = () => {
+	const [messages, setMessages] = useState(false);
+
+	const startAnimation = () => {
+		if (messages === false) {
+			setMessages([
+				{
+					name: "ms1",
+					msg: "Lorem Ipsum 1",
+					delay: 1000,
+					align: "right",
+					showTime: true,
+					time: "19:58",
+				},
+			]);
+		}
+		return;
+	};
+
+	useEffect(() => {
+		delay(2000).then(() => {
+			if (chatMessages.length && messages !== false) {
+				setMessages([...messages, chatMessages[0]]);
+				chatMessages.shift();
+			}
+		});
+	}, [messages]);
+
 	return (
-		<div className='extended-background background-secondary'>
+		<div onMouseEnter={startAnimation} className='extended-background background-secondary'>
 			<section id='support'>
 				<Row className='mx-5 py-5'>
 					<Col sm={12} lg={5} className='d-flex justify-content-center mb-5 mb-lg-0'>
-						<img src='./images/selliaPhone.png' alt='Sellia Phone' />
+						<div id='wrapper'>
+							<img src='./images/selliaPhone.png' alt='Sellia Phone' />
+							<div className='chat'>
+								<div className='chat-container'>
+									<div className='chat-listcontainer'>
+										<ul className='chat-message-list'>
+											{messages !== false ? messages.map((element) => <SupportChatMessage element={element} />) : ""}
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
 					</Col>
 					<Col sm={12} lg={7} className='my-5'>
 						<h2 className='text-center text-lg-start fw-300 my-5'>
