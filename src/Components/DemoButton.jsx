@@ -22,8 +22,7 @@ export const DemoButton = () => {
 					}`}
 					url='https://api.whatsapp.com/send/?phone=523317878856&text&type=phone_number&app_absent=0/'
 					style={{ height: 35, width: 35 }}
-					bgColor='green'
-					color='white'
+					bgColor='#31DF61'
 				/>
 				<SocialIcon
 					className={`animate__animated  ${
@@ -31,7 +30,7 @@ export const DemoButton = () => {
 					}`}
 					url='https://t.me/selliaonlinebot'
 					style={{ height: 35, width: 35 }}
-					bgColor='blue'
+					bgColor='#2A9DDF'
 				/>
 				<SocialIcon
 					className={`animate__animated  ${
@@ -39,7 +38,7 @@ export const DemoButton = () => {
 					}`}
 					url='https://www.facebook.com/sellia.business'
 					style={{ height: 35, width: 35 }}
-					bgColor='blue'
+					bgColor='#1771E6'
 				/>
 			</div>
 			<Button onClick={toggleVisibility} id='demo_button' className='fw-700'>
