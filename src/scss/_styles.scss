@@ -253,16 +253,57 @@ html, body {
         }
     }
 }
-#demo_button{
-    position: fixed;
-    background-color: var(--green-light);
-    border: none;
-    bottom: 55px;
-    right: 5px;
-    border-radius: 10px;
-    padding: 13px 16px;
-    z-index: 1000;
+#demo_container{
+    // @keyframes float {
+    //     0% {
+    //         // box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    //         transform: translatey(0px);
+    //     }
+    //     50% {
+    //         // box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    //         transform: translatey(-2px);
+    //     }
+    //     100% {
+    //         // box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    //         transform: translatey(0px);
+    //     }
+    // }
+    /* All delay classes will take half the time to start */
+    --animate-delay: 0.1s;
+
+    .social-icons{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        border: none;
+        bottom: 115px;
+        right: 5px;
+        border-radius: 10px;
+        padding: 0 5px;
+        z-index: 1000;
+    }
+    .social-icons > a {
+        background-color: white;
+        border-radius: 50%;
+        // animation: float 1.5s ease-in-out infinite;
+        margin: 5px 0 5px 0;
+    }
+    .social-icons > a > *{
+        padding: 2px;
+    }
+
+    #demo_button{
+        position: fixed;
+        background-color: var(--green-light);
+        border: none;
+        bottom: 55px;
+        right: 5px;
+        border-radius: 10px;
+        padding: 13px 16px;
+        z-index: 1000;
+    }
 }
+
 #our_clients{
     min-height:235px;
     p{
