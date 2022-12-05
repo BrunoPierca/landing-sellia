@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import { SocialIcon } from "react-social-icons";
 
 export const DemoButton = () => {
-	const [hidden, setHidden] = useState(true);
+	const [hidden, setHidden] = useState(false);
 	const toggleVisibility = () => {
 		setHidden(!hidden);
 	};
@@ -14,7 +14,6 @@ export const DemoButton = () => {
 				className={`social-icons animate__animated 
 				
 				`}
-				// style={{ display: hidden === true ? "" : "none" }}
 			>
 				<SocialIcon
 					className={`animate__animated  ${

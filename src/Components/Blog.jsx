@@ -5,6 +5,11 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 export const Blog = () => {
 	return (
 		<section id='blog'>
+			<div className='blog-animation-container blog-animation'>
+				<p className='mantente-informado fw-700'>Mantente informado.</p>
+				<p className='mantente-informado inverted fw-700'>Mantente informado.</p>
+			</div>
+
 			<Row className='p-5 pb-0 mb-0'>
 				<Col sm={6} className='p-0 d-flex align-items-center mb-5 mb-md-0'>
 					<Container fluid>
