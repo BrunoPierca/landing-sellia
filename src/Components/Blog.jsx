@@ -1,5 +1,7 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 
+// Add animation
+
 export const Blog = () => {
 	return (
 		<section id='blog'>
