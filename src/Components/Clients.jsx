@@ -31,7 +31,7 @@ export const Clients = () => {
 
 	return (
 		<section id='our_clients'>
-			<Row className='py-5 mx-5 align-items-center'>
+			<Row className='py-5 mx-3 mx-lg-5 align-items-center'>
 				<Col md={4}>
 					<Row className='py-4'>
 						<Col xs={12} md={2} lg={1} className='text-center '>

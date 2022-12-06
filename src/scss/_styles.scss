@@ -147,9 +147,10 @@ html, body {
         position: relative;
     }
     .hero-curl{
+        z-index: -50;
         width: 125%;
         position: absolute;
-        top: -18px;
+        top: -20px;
         left: -12px;
     }
 

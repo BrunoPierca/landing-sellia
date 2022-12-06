@@ -86,7 +86,7 @@ export const Support = () => {
 	return (
 		<div onMouseEnter={startAnimation} className='extended-background background-secondary'>
 			<section id='support'>
-				<Row className='mx-5 py-5'>
+				<Row className='mx-3 mx-md-5 py-5'>
 					<Col sm={12} lg={5} className='d-flex justify-content-center mb-5 mb-lg-0'>
 						<div id='wrapper'>
 							<img src='./images/selliaPhone.png' alt='Sellia Phone' />
