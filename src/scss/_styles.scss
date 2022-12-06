@@ -697,7 +697,7 @@ html, body {
         position: absolute;
         animation: linear infinite;
         animation-name: run;
-        animation-duration: 20s;
+        animation-duration: 40s;
       }
       @keyframes run {
         0% {
@@ -706,6 +706,9 @@ html, body {
         100% {
           left: 150%;    
         }
+      }
+      .animation2{
+        animation-delay: 20s;
       }
     .blog-animation-container{
     position: relative;

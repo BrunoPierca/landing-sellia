@@ -5,9 +5,15 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 export const Blog = () => {
 	return (
 		<section id='blog'>
-			<div className='blog-animation-container blog-animation'>
-				<p className='mantente-informado fw-700'>Mantente informado.</p>
-				<p className='mantente-informado inverted fw-700'>Mantente informado.</p>
+			<div className='blog-animation-container '>
+				<div className='blog-animation'>
+					<p className='mantente-informado fw-700'>Mantente informado.</p>
+					<p className='mantente-informado inverted fw-700'>Mantente informado.</p>
+				</div>
+				<div className='blog-animation animation2'>
+					<p className='mantente-informado fw-700'>Mantente informado.</p>
+					<p className='mantente-informado inverted fw-700'>Mantente informado.</p>
+				</div>
 			</div>
 
 			<Row className='p-5 pb-0 mb-0'>
