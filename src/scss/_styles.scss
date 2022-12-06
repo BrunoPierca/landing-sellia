@@ -692,6 +692,7 @@ html, body {
 }
 
 #blog{
+    overflow: hidden;
     .blog-animation{
         bottom: 15%;
         position: absolute;
@@ -766,18 +767,19 @@ html, body {
     @media (min-width: 320px){
         .icon-container > svg{
             position: absolute;
-            height: 40px;
-            width: 40px;
-            left: -40px;
-            top: -20px;
+            height: 75px;
+            width: 75px;
+            left:50%;
+            top:-95px;
+            transform: translateX(-50%);
         }
     }
-    @media (min-width: 768px){
+    @media (min-width: 992px){
         .icon-container > svg{
             position: absolute;
             height: 75px;
             width: 75px;
-            left: -75px;
+            left: -40px;
             top: -50px;
         }
     }

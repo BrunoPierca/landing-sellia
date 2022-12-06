@@ -68,7 +68,7 @@ export const ContactUs = () => {
 						</Row>
 						<br />
 					</Col>
-					<Col sm={12} lg={5} className='column-right'>
+					<Col sm={12} lg={5} className='column-right mt-5  mt-lg-0'>
 						<Container>
 							<div className='icon-container'>
 								<svg width='75' height='75' viewBox='0 0 97 97' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -90,12 +90,12 @@ export const ContactUs = () => {
 									/>
 								</svg>
 
-								<h2 className='blue fw-300'>
+								<h2 className='blue text-center text-lg-start fw-300'>
 									¿Dudas? <strong className='fw-700'>Te ayudamos</strong>
 								</h2>
 							</div>
 
-							<p className='mx-1'>
+							<p className='mx-1 text-center text-lg-start'>
 								<strong className='fw-600'>Compártenos tus dudas y un experto se comunicará contigo.</strong>
 							</p>
 
