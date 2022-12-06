@@ -34,7 +34,7 @@ export const Footer = () => {
 							</li>
 						</ul>
 					</Col>
-					<Col sm={2} className='d-flex content-social'>
+					<Col sm={3} className='d-flex content-social'>
 						<SocialIcon url='https://www.facebook.com/sellia.business/' style={{ height: 35, width: 35 }} />
 
 						<SocialIcon url='https://www.instagram.com/sellia_business/' style={{ height: 35, width: 35 }} />
