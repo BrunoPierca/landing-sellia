@@ -95,7 +95,7 @@ export const Features = () => {
 						<FeatureCard feature={"Marketplace integrado"} description={"lorem ipsum"} icon={marketplaceIcon} />
 						<FeatureCard feature={"Autogestión"} description={"lorem ipsum"} icon={autogestionIcon} />
 						<FeatureCard feature={"Omnicanal"} description={"lorem ipsum"} icon={omnicanalIcon} />
-						<FeatureCard feature={"Envíos masivos"} description={"lorem ipsum"} icon={enviosIcon} />
+						<FeatureCard feature={"Envíos masivos"} description={"lorem ipsum"} icon={enviosIcon} fullWidth={true} />
 					</div>
 				</Col>
 				<Col sm={12} lg={6} className='px-0'>

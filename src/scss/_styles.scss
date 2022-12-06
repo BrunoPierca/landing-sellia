@@ -471,14 +471,11 @@ html, body {
             width: 100%;
             aspect-ratio: 665/375;
         }
-        .mobile-full-width{
+        .fw-item{
             grid-area: fw;
         }
     }
-    
-    @media (min-width: 375px) {
-    }
-    
+       
     @media (min-width: 768px) {
         .features-grid{
             display: grid;
@@ -486,7 +483,7 @@ html, body {
             gap: 30px;
             grid-template-areas: initial;
         }
-        .mobile-full-width{
+        .fw-item{
             grid-area: auto;
         }
 
