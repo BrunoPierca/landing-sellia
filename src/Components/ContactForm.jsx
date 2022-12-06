@@ -41,8 +41,8 @@ export const ContactForm = () => {
 						onChange={onInputChange}
 					/>
 				</Row>
-				<Row>
-					<Col sm={6} className='p-0'>
+				<Row className='d-flex justify-content-between'>
+					<Col sm={12} lg={6} className='p-0'>
 						<input
 							className='px-3 py-2 w-100'
 							type='tel'
@@ -53,8 +53,15 @@ export const ContactForm = () => {
 							onChange={onInputChange}
 						/>
 					</Col>
-					<Col sm={6} className='mt-md-0'>
-						<input className='py-2' type='text' name='carrier' placeholder='Compañía' value={carrier} onChange={onInputChange} />
+					<Col sm={12} lg={5} className='mt-lg-0 mt-3 carrier-input-container px-0 d-flex  justify-content-lg-end'>
+						<input
+							className='py-2 px-3 w-100 '
+							type='text'
+							name='carrier'
+							placeholder='Compañía'
+							value={carrier}
+							onChange={onInputChange}
+						/>
 					</Col>
 				</Row>
 				<Row>

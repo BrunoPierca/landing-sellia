@@ -14,7 +14,6 @@ export const LandingPage = () => {
 	return (
 		<>
 			<NavBar />
-
 			<Container className='g-0' fluid>
 				<div
 					onMouseMove={(e) => handleMouseMove(e)}
@@ -24,7 +23,6 @@ export const LandingPage = () => {
 					<Hero />
 					<Clients />
 				</div>
-
 				<AboutUs />
 				<Products />
 				<Features />
