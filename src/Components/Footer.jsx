@@ -35,11 +35,11 @@ export const Footer = () => {
 						</ul>
 					</Col>
 					<Col sm={2} className='d-flex content-social'>
-						<SocialIcon url='https://facebook.com/' style={{ height: 35, width: 35 }} />
+						<SocialIcon url='https://www.facebook.com/sellia.business/' style={{ height: 35, width: 35 }} />
 
-						<SocialIcon url='https://instagram.com/' style={{ height: 35, width: 35 }} />
+						<SocialIcon url='https://www.instagram.com/sellia_business/' style={{ height: 35, width: 35 }} />
 
-						<SocialIcon url='https://linkedin.com/' style={{ height: 35, width: 35 }} />
+						<SocialIcon url='https://www.linkedin.com/company/sellia-business/' style={{ height: 35, width: 35 }} />
 					</Col>
 				</Row>
 			</section>
