@@ -12,6 +12,11 @@ export const NavBar = () => {
 		setPosition({ left: "100%", width: 0 });
 	};
 
+	const handleClick = (section) => {
+		const component = document.getElementById(section);
+		component.scrollIntoView({ behavior: "smooth", block: "start" });
+	};
+
 	return (
 		<section id='nav_bar'>
 			<Navbar expand='md' expanded={isOpen}>
@@ -24,7 +29,7 @@ export const NavBar = () => {
 					<Navbar.Collapse id='basic-navbar-nav'>
 						<Nav className='ms-auto text-center text-md-start'>
 							<Nav.Link
-								href='#about_us'
+								onClick={() => handleClick("about_us")}
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
 								className='mb-0'
@@ -32,18 +37,23 @@ export const NavBar = () => {
 								Sobre Nosotros
 							</Nav.Link>
 							<Nav.Link
-								href='#products'
+								onClick={() => handleClick("products")}
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
 								className='mb-0'
 							>
 								Productos
 							</Nav.Link>
-							<Nav.Link href='#blog' onMouseEnter={(e) => handleMouseEnter(e)} onMouseLeave={() => removeStripe()} className='mb-0'>
+							<Nav.Link
+								onClick={() => handleClick("blog")}
+								onMouseEnter={(e) => handleMouseEnter(e)}
+								onMouseLeave={() => removeStripe()}
+								className='mb-0'
+							>
 								Blog
 							</Nav.Link>
 							<Nav.Link
-								href='#contact_us'
+								onClick={() => handleClick("contact_us")}
 								onMouseEnter={(e) => handleMouseEnter(e)}
 								onMouseLeave={() => removeStripe()}
 								className='mb-0'
