@@ -16,6 +16,8 @@ export const DemoButton = () => {
 				`}
 			>
 				<SocialIcon
+					target='_blank'
+					rel='noreferrer'
 					className={`animate__animated  ${
 						hidden === true ? "animate__delay-5s animate__rotateInDownRight" : "animate__rotateOutDownRight"
 					}`}
@@ -24,6 +26,8 @@ export const DemoButton = () => {
 					bgColor='#31DF61'
 				/>
 				<SocialIcon
+					target='_blank'
+					rel='noreferrer'
 					className={`animate__animated  ${
 						hidden === true ? "animate__delay-4s animate__rotateInDownRight" : "animate__rotateOutDownRight"
 					}`}
@@ -32,6 +36,8 @@ export const DemoButton = () => {
 					bgColor='#2A9DDF'
 				/>
 				<SocialIcon
+					target='_blank'
+					rel='noreferrer'
 					className={`animate__animated  ${
 						hidden === true ? "animate__delay-2s animate__rotateInDownRight" : "animate__rotateOutDownRight"
 					}`}
