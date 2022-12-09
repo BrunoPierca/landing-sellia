@@ -5,15 +5,36 @@ const formData = {
 	name: "",
 	email: "",
 	phoneNumber: "",
-	carrier: "",
+	company: "",
 	comments: "",
 };
 export const ContactForm = () => {
-	const { name, email, phoneNumber, carrier, comments, onInputChange, formState } = useForm(formData);
+	const { name, email, phoneNumber, company, comments, onInputChange, formState } = useForm(formData);
 
 	const onSubmit = (e) => {
 		e.preventDefault();
-		console.log(name, email, phoneNumber, carrier, comments);
+		createMessage(name, email, phoneNumber, company, comments);
+	};
+
+	const createMessage = (name, email, phoneNumber, company, comments) => {
+		const number = "5215574766664";
+		const nameEmoji = "%F0%9F%99%8B%E2%80%8D%E2%99%82%EF%B8%8F%20";
+		const envelopeEmoji = "%E2%9C%89%EF%B8%8F%20";
+		const phoneEmoji = "%F0%9F%93%B1";
+		const emailEmoji = "%F0%9F%93%A7%20";
+		const companyEmoji = "%F0%9F%8F%AC";
+		const lineBreak = "%0A";
+		const link = `https://api.whatsapp.com/send?phone=${number}&text=${nameEmoji}Nombre:%20${name.replaceAll(
+			" ",
+			"%20"
+		)}%0A${phoneEmoji}N%C3%BAmero%20de%20tel%C3%A9fono:%20${phoneNumber.replaceAll(
+			" ",
+			""
+		)}${lineBreak}${companyEmoji}Compa%C3%B1ia:%20${company.replaceAll(" ", "%20")}%0A${emailEmoji}Email:%20${email.replaceAll(
+			" ",
+			""
+		)}%0A${envelopeEmoji}Comentario:%0A${comments.replaceAll(" ", "%20")}`;
+		window.open(link, "_blank");
 	};
 
 	return (
@@ -21,6 +42,7 @@ export const ContactForm = () => {
 			<Form className='d-grid gap-3' onSubmit={(e) => onSubmit(e)}>
 				<Row>
 					<input
+						required
 						className='px-3 py-2'
 						type='text'
 						name='name'
@@ -32,6 +54,7 @@ export const ContactForm = () => {
 				</Row>
 				<Row>
 					<input
+						required
 						className='px-3 py-2'
 						type='email'
 						name='email'
@@ -44,6 +67,7 @@ export const ContactForm = () => {
 				<Row className='d-flex justify-content-between'>
 					<Col sm={12} lg={6} className='p-0'>
 						<input
+							required
 							className='px-3 py-2 w-100'
 							type='tel'
 							name='phoneNumber'
@@ -53,19 +77,21 @@ export const ContactForm = () => {
 							onChange={onInputChange}
 						/>
 					</Col>
-					<Col sm={12} lg={5} className='mt-lg-0 mt-3 carrier-input-container px-0 d-flex  justify-content-lg-end'>
+					<Col sm={12} lg={5} className='mt-lg-0 mt-3 company-input-container px-0 d-flex  justify-content-lg-end'>
 						<input
+							required
 							className='py-2 px-3 w-100 '
 							type='text'
-							name='carrier'
+							name='company'
 							placeholder='Compañía'
-							value={carrier}
+							value={company}
 							onChange={onInputChange}
 						/>
 					</Col>
 				</Row>
 				<Row>
 					<input
+						required
 						className='py-2 input-comentarios'
 						type='text'
 						name='comments'
