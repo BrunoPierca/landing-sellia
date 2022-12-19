@@ -36,7 +36,7 @@ export const DemoButton = () => {
 					className={`animate__animated  ${
 						hidden === true ? "animate__delay-4s animate__rotateInDownRight" : "animate__rotateOutDownRight"
 					}`}
-					url='https://t.me/selliaonlinebot'
+					url='https://t.me/selliasoportebot'
 					style={{ height: 35, width: 35 }}
 					bgColor='#2A9DDF'
 				/>

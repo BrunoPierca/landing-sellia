@@ -25,7 +25,11 @@ export const ContactUs = () => {
 							<Col className='text-center text-md-start'>
 								<h6>Whatsapp</h6>
 								<p>Nuestro equipo está para ayudar.</p>
-								<a href='tel:+523317878856' target='_blank' className='text-white text-decoration-none'>
+								<a
+									href='https://api.whatsapp.com/send/?phone=523317878856&text&type=phone_number&app_absent=0'
+									target='_blank'
+									className='text-white text-decoration-none'
+								>
 									+52 33 1787 8856
 								</a>
 							</Col>
@@ -35,7 +39,7 @@ export const ContactUs = () => {
 								<SocialIcon
 									target='_blank'
 									rel='noreferrer'
-									url='https://t.me/selliaonlinebot'
+									url='https://t.me/selliasoportebot'
 									style={{ height: 30, width: 30 }}
 									bgColor='#ffffff'
 								/>
@@ -43,7 +47,7 @@ export const ContactUs = () => {
 							<Col className='text-center text-md-start'>
 								<h6>Telegram</h6>
 								<p>Nuestro equipo está para ayudar.</p>
-								<a href='tel:+523317878856' target='_blank' className='text-white text-decoration-none'>
+								<a href='https://t.me/selliasoportebot' target='_blank' className='text-white text-decoration-none'>
 									@selliaonlinebot
 								</a>
 							</Col>
@@ -73,7 +77,7 @@ export const ContactUs = () => {
 								<SocialIcon
 									target='_blank'
 									rel='noreferrer'
-									url='mailto:sellia@mail.com'
+									url='mailto:support@sellia.com.mx'
 									style={{ height: 30, width: 30 }}
 									bgColor='#ffffff'
 								/>
@@ -81,8 +85,8 @@ export const ContactUs = () => {
 							<Col className='text-center text-md-start'>
 								<h6>E-mail</h6>
 								<p>Nuestro equipo está para ayudar.</p>
-								<a href='mailto:sellia@mail.com' target='_blank' className='text-white text-decoration-none'>
-									sellia@mail.com
+								<a href='mailto:support@sellia.com.mx' target='_blank' className='text-white text-decoration-none'>
+									support@sellia.com.mx
 								</a>
 							</Col>
 						</Row>
