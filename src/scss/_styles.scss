@@ -308,6 +308,13 @@ html, body {
 
 #our_clients{
     min-height:235px;
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    ul > li > img {
+        max-height: 80px;
+    }
     p{
         width: auto;
     }
